@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+:root{
+  --color1: #E1BD93;
+  --font-family:"Libre Baskerville", serif;
+}
+/* BODY */
+body{
+  font-family: var(--font-family) !important;
+}
+/* BODY */
+
+/* NAVBAR CSS START*/
+/* Top Header */
+.tophead {
+  background-color: #333;
+  color: white;
+}
+
+.span-head1 {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px 0px !important;
+  background-color: rgba(255, 255, 255, 0.034);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #333 !important;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-outline-secondary {
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border-radius: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Offcanvas */
+.offcanvas {
+  background-color: #fff;
+}
+
+.offcanvas-title {
+  font-size: 20px;
+  color: #333;
+}
+
+.nav-item>.nav-link {
+  font-size: 14px;
+  color: white;
+
+  font-weight: 500 !important;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* NAVBAR CSS END */
+
+/* HOME CSS START */
+.carousel-item{
+  height: 120vh;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  transition: 1.9s ease-in-out !important;
+  animation:fn 7.5s linear infinite;
+}
+
+.car1{
+  object-fit: cover;
+  background-size: cover;
+  background-image: url("assets/revslider_1.jpg") ;
+}
+@keyframes fn {
+  0%{
+    transform: scale(1);
+  }
+ 
+  100%{
+    transform: scale(1.1);
+  }
+}
+.car2{
+  background-image: url("assets/revslider_3.jpg");
+}
+.car3{
+  background-image: url("assets/revslider_6.jpg");
+}
+.dash{
+border-bottom: 1px solid white !important;
+}
+.bg{
+  background-color: var(--color1);
+}
+.btn1{
+
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  font-size: 18px !important;
+color: rgb(255, 255, 255);
+transition: transform 0.5s ease-in-out; 
+font-weight: 800 !important;
+}
+
+.spa {
+  display: inline-block;
+  color: white !important;
+  transform: rotateY(0deg) !important;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out; 
+}
+.btn1:hover .spa{
+  transform: rotateY(180deg) !important;
+}
+.btn1:hover{
+  border-top: 2px solid var(--color1);
+  border-bottom: 2px solid var(--color1);
+
+  background-color: transparent;
+  transform: rotateY(180deg);
+}
+/* HOME CSS END */
