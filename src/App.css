@@ -4,8 +4,6 @@
   /* --color1: #E1BD93; */
   --color1:#dfad75;
   --font-family: "Montserrat", serif;
-  /* --font-family:"Libre Baskerville", serif; */
-
 }
 /* BODY */
 body{
@@ -27,6 +25,7 @@ body{
 
 /* Navbar */
 .navbar {
+  background-color: transparent;
   padding: 20px 0px !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.164);
 }
@@ -81,6 +80,7 @@ body{
 
 /* HOME CSS START */
 .carousel-item{
+
   height: 120vh;
   object-fit: cover;
   background-position: center;
@@ -148,6 +148,9 @@ font-size: 14px;
   font-weight: 400 !important;
   color: #646464;
 }
+.col-org{
+  color: var(--color1) !important;
+}
 .cont-1{
 
   position: relative;
@@ -156,6 +159,10 @@ font-size: 14px;
   margin-top: -50px !important;
 
   background-color: white !important;
+}
+.event-step{
+
+  border: 5px solid var(--color1);
 }
 .main3>div{
   position: relative;

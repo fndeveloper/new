@@ -7,6 +7,8 @@ import img4 from "../assets/home_img-1.jpg"
 import card_img_1 from "../assets/card_1.jpeg"
 import card_img_2 from "../assets/card_2.jpeg"
 import card_img_3 from "../assets/card_3.jpeg"
+import head_banner from "../assets/h2_bg2.jpg"
+
 
 
 import homebg from "../assets/home_bg_1.jpg"
@@ -56,22 +58,22 @@ const Home = () => {
         </div>
 
         <button
-          className="carousel-control-prev"
+          className="carousel-control-prev "
           type="button"
           data-bs-target="#carouselExampleFade"
           data-bs-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="carousel-control-prev-icon carousel-btn visually-hidden" aria-hidden="true" />
           <span className="visually-hidden">Previous</span>
         </button>
 
         <button
-          className="carousel-control-next"
+          className="carousel-control-next "
           type="button"
           data-bs-target="#carouselExampleFade"
           data-bs-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="carousel-control-next-icon carousel-btn visually-hidden" aria-hidden="true" />
           <span className="visually-hidden">Next</span>
         </button>
       </div>
@@ -94,87 +96,129 @@ const Home = () => {
         </div>
       </div>
       {/* MAIN 2 START */}
-            {/* MAIN 3 START */} 
-            <div className="container-fluid main3 gap-1 d-flex flex-lg-row flex-column align-items-center justify-content-center">
-  <div className="col-lg-4 col-md-6 col-12">
-    <div className="card-container">
-      <div className="cards1">
-        <img src={card_img_1} className="img-fluid" alt="Corporate Event" />
-      </div>
-      <div className="cards2 d-flex flex-column justify-content-center align-items-center">
-        <h1 className='text-white'>Corporate Events</h1>
-        <p className='text-white'>Lorem ipsum dolor sit amet.</p>
-        <button>See More</button>
- 
-      </div>
-    </div>
-  </div>
-  <div className="col-lg-4 col-md-6 col-12">
-    <div className="card-container">
-      <div className="cards1">
-        <img src={card_img_2} className="img-fluid" alt="Corporate Event" />
-      </div>
-      <div className="cards2 d-flex flex-column justify-content-center align-items-center">
-        <h1 className='text-white'>Corporate Events</h1>
-        <p className='text-white'>Lorem ipsum dolor sit amet.</p>
-        <button>See More</button>
- 
-      </div>
-    </div>
-  </div>  <div className="col-lg-4 col-md-6 col-12">
-    <div className="card-container">
-      <div className="cards1">
-        <img src={card_img_3} className="img-fluid" alt="Corporate Event" />
-      </div>
-      <div className="cards2 d-flex flex-column justify-content-center align-items-center">
-        <h1 className='text-white'>Corporate Events</h1>
-        <p className='text-white'>Lorem ipsum dolor sit amet.</p>
-        <button>See More</button>
- 
-      </div>
-    </div>
-  </div>
-</div>
-   {/* MAIN 3 END */}
-{/* MAIN 4 START */}
-<section className="event-section">
-  <h1>Event Planning</h1>
-  <p className="subtitle">For All Your Catering Needs</p>
-  <div className="container position-relative">
-    <div className="curved-line" />{" "}
-    {/* Add a curved line effect using an image */}
-    <div className="row text-center">
-      <div className="col-lg-3 col-md-6 col-12 event-step">
-        <h2>01</h2>
-        <h3>Request A Consultation</h3>
-        <p>Apparently we had reached a great height in the atmosphere</p>
-      </div>
-      <div className="col-lg-3 col-md-6 col-12 event-step">
-        <h2>02</h2>
-        <h3>Confirmation</h3>
-        <p>
-          By the same illusion which lifts the horizon of the sea to the level
-        </p>
-      </div>
-      <div className="col-lg-3 col-md-6 col-12 event-step">
-        <h2>03</h2>
-        <h3>We do the plan</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod
-        </p>
-      </div>
-      <div className="col-lg-3 col-md-6 col-12 event-step">
-        <h2>04</h2>
-        <h3>Enjoy!</h3>
-        <p>Apparently we had reached a great height in the atmosphere</p>
-      </div>
-    </div>
-  </div>
-</section>
+      {/* MAIN 3 START */}
+      <div className="container-fluid main3 gap-1 d-flex flex-lg-row flex-column align-items-center justify-content-center">
+        <div className="col-lg-4 col-md-6 col-12">
+          <div className="card-container">
+            <div className="cards1">
+              <img src={card_img_1} className="img-fluid" alt="Corporate Event" />
+            </div>
+            <div className="cards2 d-flex flex-column justify-content-center align-items-center">
+              <h1 className='text-white'>Corporate Events</h1>
+              <p className='text-white'>Lorem ipsum dolor sit amet.</p>
+              <button>See More</button>
 
-{/* MAIN 4 END */}
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-6 col-12">
+          <div className="card-container">
+            <div className="cards1">
+              <img src={card_img_2} className="img-fluid" alt="Corporate Event" />
+            </div>
+            <div className="cards2 d-flex flex-column justify-content-center align-items-center">
+              <h1 className='text-white'>Corporate Events</h1>
+              <p className='text-white'>Lorem ipsum dolor sit amet.</p>
+              <button>See More</button>
 
+            </div>
+          </div>
+        </div>  <div className="col-lg-4 col-md-6 col-12">
+          <div className="card-container">
+            <div className="cards1">
+              <img src={card_img_3} className="img-fluid" alt="Corporate Event" />
+            </div>
+            <div className="cards2 d-flex flex-column justify-content-center align-items-center">
+              <h1 className='text-white'>Corporate Events</h1>
+              <p className='text-white'>Lorem ipsum dolor sit amet.</p>
+              <button>See More</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* MAIN 3 END */}
+      {/* MAIN 4 START */}
+      <section className="event-section my-5 ">
+      <div className='px-2'>
+      <h1>Event Planning</h1>
+      <p className="subtitle ">For All Your Catering Needs</p>
+      </div>
+        <div className="container-fluid bg px-4  ">
+          <div className="row py-4 ">
+            <div className="col-lg-3 bg-white p-3 rounded-1 col-md-6 col-12 event-step">
+              <h2>01</h2>
+              <h5 className=' '>Request A Consultation</h5>
+              <p>Apparently we had reached a great height in the atmosphere</p>
+            </div>
+            <div className="col-lg-3 bg-white p-3 rounded-1 col-md-6 col-12 event-step">
+              <h2>02</h2>
+              <h5>Confirmation</h5>
+              <p>
+                By the same illusion which lifts the horizon of the sea to the level
+              </p>
+            </div>
+            <div className="col-lg-3 bg-white p-3 rounded-1 col-md-6 col-12 event-step">
+              <h2>03</h2>
+              <h5>We do the plan</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
+              </p>
+            </div>
+            <div className="col-lg-3 bg-white p-3 rounded-1 col-md-6 col-12 event-step">
+              <h2>04</h2>
+              <h5>Enjoy!</h5>
+              <p>Apparently we had reached a great height in the atmosphere</p>
+            </div>
+          </div>
+      
+        </div>
+
+        <div className="container-fluid  m-0 p-0">
+          <img src={head_banner} className='img-fluid'/>
+        </div>
+      </section>
+
+      {/* MAIN 4 END */}
+      {/* MAIN 5 START */}
+      <div className="container why-us">
+        <h2>Why Us</h2>
+        <p>For All Your Catering Needs</p>
+        <div className="row">
+          <div className="col-md-4 col-12 why-box">
+            <i className="fas fa-utensils" />
+            <h5>Exclusive Design</h5>
+            <p>We create elegant and unique catering setups.</p>
+          </div>
+          <div className="col-md-4 col-12 why-box">
+            <i className="fas fa-user-tie" />
+            <h5>Client Focused</h5>
+            <p>Ensuring customer satisfaction is our top priority.</p>
+          </div>
+          <div className="col-md-4 col-12 why-box">
+            <i className="fas fa-carrot" />
+            <h5>Fresh Ingredients</h5>
+            <p>We use only the best and freshest ingredients.</p>
+          </div>
+          <div className="col-md-4 col-12 why-box">
+            <i className="fas fa-users" />
+            <h5>Diverse Client Base</h5>
+            <p>We cater to a variety of clients and occasions.</p>
+          </div>
+          <div className="col-md-4 col-12 why-box">
+            <i className="fas fa-seedling" />
+            <h5>Responsible Sourcing</h5>
+            <p>Sustainably sourced and ethically produced.</p>
+          </div>
+          <div className="col-md-4 col-12 why-box">
+            <i className="fas fa-concierge-bell" />
+            <h5>Flexible Services</h5>
+            <p>Customizable services to fit your needs.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* MAIN 5 END */}
     </>
   );
 };

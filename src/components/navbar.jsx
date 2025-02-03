@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       {/* NAVBAR START */}
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark ">
   <div className="container-fluid">
     {/* Left Side Nav Links */}
     <ul className="navbar-nav d-none d-lg-flex">
