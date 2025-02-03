@@ -224,3 +224,15 @@ font-size: 14px;
 }
 
 /* HOME CSS END */
+
+/* FOOTER CSS START */
+footer{
+  color: white !important;
+  background-color: #1d1d1d !important;
+}
+
+footer>div>div>div>ul>li>a{
+text-decoration: none;
+  color: white !important;
+}
+/* FOOTER CSS END */
