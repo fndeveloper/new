@@ -13,6 +13,7 @@ import Home from './pages/home'
 import Contact from './pages/about'
 import Service from './pages/service'
 import About from './pages/about'
+import Footer from './components/footer'
 // PAGES
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/service" element={<Service />} />
 
       </Routes>
+      <Footer/>
     </BrowserRouter>
     </>
   )

@@ -25,8 +25,11 @@ body{
 
 /* Navbar */
 .navbar {
+  width: 100%;
   background-color: transparent;
   padding: 20px 0px !important;
+  z-index: 2;
+  position: absolute !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.164);
 }
 
