@@ -222,8 +222,53 @@ const Home = () => {
           </div>
         </div>
       </div>
+ {/* MAIN 5 END */}
+       {/* MAIN 6 START */}
+       <div className="container-fluid bg py-5">
+       <div
+  id="carouselExampleControls1"
+  className="carousel1 slide"
+  data-ride="carousel1"
+>
+  <div className="carousel-inner1">
+    <div className="carousel-item1 active">
+     <div className="d-block">
+      <h2>hi fist here</h2>
+     </div>
+    </div>
+    <div className="carousel-item1">
+    <div className="d-block">
+      <h2>hi fist here</h2>
+     </div>
+    </div>
+    <div className="carousel-item1">
+    <div className="d-block">
+      <h2>hi fist here</h2>
+     </div>
+    </div>
+  </div>
+  <a
+    className="carousel-control-prev"
+    href="#carouselExampleControls1"
+    role="button"
+    data-slide="prev"
+  >
+    <span className="carousel-control-prev-icon" aria-hidden="true" />
+    <span className="sr-only">Previous</span>
+  </a>
+  <a
+    className="carousel-control-next"
+    href="#carouselExampleControls1"
+    role="button"
+    data-slide="next"
+  >
+    <span className="carousel-control-next-icon" aria-hidden="true" />
+    <span className="sr-only">Next</span>
+  </a>
+</div>
 
-      {/* MAIN 5 END */}
+       </div>
+             {/* MAIN 6 END */}
     </>
   );
 };
