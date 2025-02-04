@@ -88,54 +88,59 @@ const Home = () => {
           <p className='py-4  col-grey '>
             we specialize in creating unforgettable experiences through exceptional event planning and catering services. With years of expertise in the industry, our team is dedicated to turning your vision into reality, ensuring that every detail is flawlessly executed.
 
-            From intimate gatherings to grand celebrations, corporate events to weddings, we offer tailored solutions that reflect your unique style and preferences. Our meticulous planning, creative designs, and high-quality catering ensure a seamless and stress-free experience for you and your guests.
+            From intimate gatherings to grand celebrations, corporate  to weddings, we offer tailored solutions that reflect your unique style and preferences. Our meticulous planning, creative designs, and high-quality catering ensure a seamless and stress-free experience for you and your guests.
 
-            What sets us apart is our passion for excellence, innovative approach, and commitment to customer satisfaction. We work closely with our clients to curate bespoke events that leave a lasting impression. Whether you need full-scale event planning, venue selection, catering, or décor arrangements, we handle everything with professionalism and elegance.
+            What sets us apart is our passion for excellence, innovative approach, and commitment to customer satisfaction. We work closely with our clients to curate bespoke  that leave a lasting impression. Whether you need full-scale event planning, venue selection, catering, or décor arrangements, we handle everything with professionalism and elegance.
           </p>
 
         </div>
       </div>
       {/* MAIN 2 START */}
       {/* MAIN 3 START */}
-      <div className="container-fluid main3 gap-1 d-flex flex-lg-row flex-column align-items-center justify-content-center">
-        <div className="col-lg-4 col-md-6 col-12">
-          <div className="card-container">
-            <div className="cards1">
-              <img src={card_img_1} className="img-fluid" alt="Corporate Event" />
-            </div>
-            <div className="cards2 d-flex flex-column justify-content-center align-items-center">
-              <h1 className='text-white'>Corporate Events</h1>
-              <p className='text-white'>Lorem ipsum dolor sit amet.</p>
-              <button>See More</button>
+      <div>
+        <h2 className='col-org py-5'>Our Service</h2>
+      </div>
+      <div className="container-fluid px-2 gap-1 d-flex flex-lg-row flex-column align-items-center justify-content-center">
+        <div className="col-lg-3 col-md-6 col-12">
+          <div className="card-container cards1 col-12 d-flex justify-content-center align-items-center flex-column">
+            
+              <h1 className='text-white1 '>Corporate </h1>
 
-            </div>
+
+             <div className="card-hover"></div>
+         
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 col-12">
-          <div className="card-container">
-            <div className="cards1">
-              <img src={card_img_2} className="img-fluid" alt="Corporate Event" />
-            </div>
-            <div className="cards2 d-flex flex-column justify-content-center align-items-center">
-              <h1 className='text-white'>Corporate Events</h1>
-              <p className='text-white'>Lorem ipsum dolor sit amet.</p>
-              <button>See More</button>
+        <div className="col-lg-3 col-md-6 col-12">
+          <div className="card-container cards2 col-12 d-flex justify-content-center align-items-center flex-column">
+            
+              <h1 className='text-white1 '>Parties </h1>
 
-            </div>
-          </div>
-        </div>  <div className="col-lg-4 col-md-6 col-12">
-          <div className="card-container">
-            <div className="cards1">
-              <img src={card_img_3} className="img-fluid" alt="Corporate Event" />
-            </div>
-            <div className="cards2 d-flex flex-column justify-content-center align-items-center">
-              <h1 className='text-white'>Corporate Events</h1>
-              <p className='text-white'>Lorem ipsum dolor sit amet.</p>
-              <button>See More</button>
 
-            </div>
+             <div className="card-hover"></div>
+         
           </div>
         </div>
+        <div className="col-lg-3 col-md-6 col-12">
+          <div className="card-container cards3 col-12 d-flex justify-content-center align-items-center flex-column">
+            
+              <h1 className='text-white1 '>Wedding </h1>
+
+
+             <div className="card-hover"></div>
+         
+          </div>
+        </div>       <div className="col-lg-3 col-md-6 col-12">
+          <div className="card-container cards4 col-12 d-flex justify-content-center align-items-center flex-column">
+            
+              <h1 className='text-white1 '>Birthday </h1>
+
+
+             <div className="card-hover"></div>
+         
+          </div>
+        </div>
+      
       </div>
       {/* MAIN 3 END */}
       {/* MAIN 4 START */}
