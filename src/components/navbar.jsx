@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/temp_logo.png"
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
@@ -9,42 +10,48 @@ const Navbar = () => {
     {/* Left Side Nav Links */}
     <ul className="navbar-nav d-none d-lg-flex">
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <Link className="nav-link" to={"/"}>
           Home
-        </a>
+       </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <Link className="nav-link" to={"/about"}>
           About Us
-        </a>
+           </Link>
       </li>
       <li className="nav-item dropdown">
-        <a
+        <Link
           className="nav-link dropdown-toggle"
-          href="#"
+          to={"/"}
           role="button"
           data-bs-toggle="dropdown"
         >
           Services
-        </a>
+           </Link>
         <ul className="dropdown-menu">
           <li>
-            <a className="dropdown-item" href="#">
+            <Link className="dropdown-item" to={"/catering"}>
               Catering
-            </a>
+               </Link>
           </li>
           <li>
-            <a className="dropdown-item" href="#">
-              Event Planning
-            </a>
+            <Link className="dropdown-item" to={"/birthday"}>
+            Birthday
+               </Link>
+          </li>
+          <li>
+            <Link className="dropdown-item" to={"/corporate"}>
+            Corporate
+               </Link>
+          </li>
+          <li>
+            <Link className="dropdown-item" to={"/parties"}>
+              Parties
+               </Link>
           </li>
         </ul>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">
-          Menus
-        </a>
-      </li>
+  
     </ul>
     {/* Brand (Logo in the center) */}
 
@@ -53,58 +60,20 @@ const Navbar = () => {
     {/* Right Side Nav Links */}
     <ul className="navbar-nav d-none d-lg-flex">
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <Link className="nav-link" to={"/"}>
           Venues
-        </a>
-      </li>
-      <li className="nav-item dropdown">
-        <a
-          className="nav-link dropdown-toggle"
-          href="#"
-          role="button"
-          data-bs-toggle="dropdown"
-        >
-          Blog
-        </a>
-        <ul className="dropdown-menu">
-          <li>
-            <a className="dropdown-item" href="#">
-              Latest News
-            </a>
-          </li>
-          <li>
-            <a className="dropdown-item" href="#">
-              Tips &amp; Tricks
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li className="nav-item dropdown">
-        <a
-          className="nav-link dropdown-toggle"
-          href="#"
-          role="button"
-          data-bs-toggle="dropdown"
-        >
-          Page
-        </a>
-        <ul className="dropdown-menu">
-          <li>
-            <a className="dropdown-item" href="#">
-              FAQ
-            </a>
-          </li>
-          <li>
-            <a className="dropdown-item" href="#">
-              Contact
-            </a>
-          </li>
-        </ul>
+           </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <Link className="nav-link" to={"/"}>
+          Menus
+           </Link>
+      </li>
+   
+      <li className="nav-item">
+        <Link className="nav-link" to={"/"}>
           Contact
-        </a>
+           </Link>
       </li>
     </ul>
     {/* Mobile Menu Button */}
@@ -123,95 +92,95 @@ const Navbar = () => {
 <div className="collapse navbar-collapse" id="navbarNav">
   <ul className="navbar-nav text-center bg-dark p-3">
     <li className="nav-item">
-      <a className="nav-link" href="#">
+      <Link className="nav-link" to={"/"}>
         Home
-      </a>
+         </Link>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="#">
+      <Link className="nav-link" to={"/"}>
         About Us
-      </a>
+         </Link>
     </li>
     <li className="nav-item dropdown">
-      <a
+      <Link
         className="nav-link dropdown-toggle"
-        href="#"
+        to={"/"}
         role="button"
         data-bs-toggle="dropdown"
       >
         Services
-      </a>
+         </Link>
       <ul className="dropdown-menu">
         <li>
-          <a className="dropdown-item" href="#">
+          <Link className="dropdown-item" to={"/"}>
             Catering
-          </a>
+             </Link>
         </li>
         <li>
-          <a className="dropdown-item" href="#">
+          <Link className="dropdown-item" to={"/"}>
             Event Planning
-          </a>
+             </Link>
         </li>
       </ul>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="#">
+      <Link className="nav-link" to={"/"}>
         Menus
-      </a>
+         </Link>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="#">
+      <Link className="nav-link" to={"/"}>
         Venues
-      </a>
+         </Link>
     </li>
     <li className="nav-item dropdown">
-      <a
+      <Link
         className="nav-link dropdown-toggle"
-        href="#"
+        to={"/"}
         role="button"
         data-bs-toggle="dropdown"
       >
         Blog
-      </a>
+         </Link>
       <ul className="dropdown-menu">
         <li>
-          <a className="dropdown-item" href="#">
+          <Link className="dropdown-item" to={"/"}>
             Latest News
-          </a>
+             </Link>
         </li>
         <li>
-          <a className="dropdown-item" href="#">
+          <Link className="dropdown-item" to={"/"}>
             Tips &amp; Tricks
-          </a>
+             </Link>
         </li>
       </ul>
     </li>
     <li className="nav-item dropdown">
-      <a
+      <Link
         className="nav-link dropdown-toggle"
-        href="#"
+        to={"/"}
         role="button"
         data-bs-toggle="dropdown"
       >
         Page
-      </a>
+         </Link>
       <ul className="dropdown-menu">
         <li>
-          <a className="dropdown-item" href="#">
+          <Link className="dropdown-item" to={"/"}>
             FAQ
-          </a>
+             </Link>
         </li>
         <li>
-          <a className="dropdown-item" href="#">
+          <Link className="dropdown-item" to={"/"}>
             Contact
-          </a>
+             </Link>
         </li>
       </ul>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="#">
+      <Link className="nav-link" to={"/"}>
         Contact
-      </a>
+         </Link>
     </li>
   </ul>
 </div>
