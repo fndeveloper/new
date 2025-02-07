@@ -87,6 +87,12 @@ const Navbar = () => {
     </button>
   </div>
 </nav>
+
+<button className="btnfix">
+  <Link to={"/calculator"}>
+  <i className="fa-solid fa-calculator "></i>
+  </Link>
+</button>
  {/* NAVBAR END */}
 {/* MOBILE NAV START */}
 <div className="collapse navbar-collapse" id="navbarNav">

@@ -287,8 +287,21 @@ background-position: top  !important;
       
       background-position: top  !important;
       }
-    
-
+    .fa-calculator{
+    font-size: 24px !important;
+      color: white;
+    }
+    .btnfix{
+      border-radius: 4px;
+      background-color: var(--color1) !important;
+  right: 20px;
+  padding: 10px;
+  z-index: 111;
+  bottom: 20px !important;
+  border: none;
+  color: var(--color1) !important;
+  position: fixed !important;
+}
 /* HOME CSS END */
 
 /* FOOTER CSS START */

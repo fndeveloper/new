@@ -21,6 +21,7 @@ import Birthday from './pages/birthday'
 import Parties from './pages/parties'
 import Venues from './pages/venues'
 import Menu from './pages/menu'
+import Calculator from './pages/calculator'
 
 // PAGES
 
@@ -41,6 +42,7 @@ function App() {
         <Route path="/corporate" element={<Corporate />} />
         <Route path="/parties" element={<Parties />} />
         <Route path="/Venues" element={<Venues />} />
+        <Route path="/calculator" element={<Calculator />} />
 
         <Route path="/menu" element={<Menu />} />
 
