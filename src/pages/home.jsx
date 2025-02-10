@@ -8,7 +8,7 @@ import card_img_1 from "../assets/card_1.jpeg"
 import card_img_2 from "../assets/card_2.jpeg"
 import card_img_3 from "../assets/card_3.jpeg"
 import head_banner from "../assets/h2_bg2.jpg"
-
+import {Link} from "react-router-dom"
 
 
 import homebg from "../assets/home_bg_1.jpg"
@@ -102,6 +102,7 @@ const Home = () => {
       </div>
       <div className="container-fluid px-2 gap-1 d-flex flex-lg-row flex-column align-items-center justify-content-center">
         <div className="col-lg-3 col-md-6 col-12">
+        <Link to={"/contact"}>
           <div className="card-container cards1 col-12 d-flex justify-content-center align-items-center flex-column">
             
               <h1 className='text-white1 '>Corporate </h1>
@@ -110,6 +111,7 @@ const Home = () => {
              <div className="card-hover"></div>
          
           </div>
+        </Link>
         </div>
         <div className="col-lg-3 col-md-6 col-12">
           <div className="card-container cards2 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -121,9 +123,10 @@ const Home = () => {
          
           </div>
         </div>
+        
         <div className="col-lg-3 col-md-6 col-12">
           <div className="card-container cards3 col-12 d-flex justify-content-center align-items-center flex-column">
-            
+          
               <h1 className='text-white1 '>Wedding </h1>
 
 
