@@ -10,7 +10,7 @@ import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
 // PAGES
 import Navbar from './components/navbar'
 import Home from './pages/home'
-import Contact from './pages/about'
+import Contact from './pages/contact'
 import Service from './pages/service'
 import About from './pages/about'
 import Footer from './components/footer'
@@ -43,6 +43,8 @@ function App() {
         <Route path="/parties" element={<Parties />} />
         <Route path="/Venues" element={<Venues />} />
         <Route path="/calculator" element={<Calculator />} />
+   
+
 
         <Route path="/menu" element={<Menu />} />
 
