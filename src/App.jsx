@@ -43,6 +43,7 @@ function App() {
         <Route path="/parties" element={<Parties />} />
         <Route path="/Venues" element={<Venues />} />
         <Route path="/calculator" element={<Calculator />} />
+        <Route path="/Wedding" element={<Wedding />} />
    
 
 

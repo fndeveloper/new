@@ -102,7 +102,7 @@ const Home = () => {
       </div>
       <div className="container-fluid px-2 gap-1 d-flex flex-lg-row flex-column align-items-center justify-content-center">
         <div className="col-lg-3 col-md-6 col-12">
-        <Link to={"/contact"}>
+        <Link to={"/corporate"} className="text-decoration-none">
           <div className="card-container cards1 col-12 d-flex justify-content-center align-items-center flex-column">
             
               <h1 className='text-white1 '>Corporate </h1>
@@ -114,6 +114,7 @@ const Home = () => {
         </Link>
         </div>
         <div className="col-lg-3 col-md-6 col-12">
+        <Link to={"/parties"}  className="text-decoration-none">
           <div className="card-container cards2 col-12 d-flex justify-content-center align-items-center flex-column">
             
               <h1 className='text-white1 '>Parties </h1>
@@ -122,9 +123,11 @@ const Home = () => {
              <div className="card-hover"></div>
          
           </div>
+          </Link>
         </div>
         
         <div className="col-lg-3 col-md-6 col-12">
+        <Link to={"/Wedding"}  className="text-decoration-none">
           <div className="card-container cards3 col-12 d-flex justify-content-center align-items-center flex-column">
           
               <h1 className='text-white1 '>Wedding </h1>
@@ -132,8 +135,11 @@ const Home = () => {
 
              <div className="card-hover"></div>
          
-          </div>
+             </div>
+             </Link>
+
         </div>       <div className="col-lg-3 col-md-6 col-12">
+        <Link to={"/Wedding"}  className="text-decoration-none">
           <div className="card-container cards4 col-12 d-flex justify-content-center align-items-center flex-column">
             
               <h1 className='text-white1 '>Birthday </h1>
@@ -142,6 +148,7 @@ const Home = () => {
              <div className="card-hover"></div>
          
           </div>
+          </Link>
         </div>
       
       </div>

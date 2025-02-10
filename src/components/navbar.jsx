@@ -48,6 +48,9 @@ const Navbar = () => {
             <Link className="dropdown-item" to={"/parties"}>
               Parties
                </Link>
+               <Link className="dropdown-item" to={"/Wedding"}>
+            Wedding
+               </Link>
           </li>
         </ul>
       </li>
