@@ -41,7 +41,7 @@ function App() {
         <Route path="/birthday" element={<Birthday />} />
         <Route path="/corporate" element={<Corporate />} />
         <Route path="/parties" element={<Parties />} />
-        <Route path="/Venues" element={<Venues />} />
+        <Route path="/Events" element={<Venues />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/Wedding" element={<Wedding />} />
    

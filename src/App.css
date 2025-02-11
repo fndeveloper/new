@@ -12,14 +12,32 @@ body{
   font-family: var(--font-family-Marcellus) !important;
 }
 /* BODY */
-
+.card-img-to{
+  object-fit: cover;
+  background-size: cover;
+  width: 100% !important;
+  height: 240px !important;
+}
+.bt1{
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  font-weight: 100 !important;
+  text-decoration: none;
+  background-color: var(--color1);
+}
 /* NAVBAR CSS START*/
 /* Top Header */
 .tophead {
   background-color: #333;
   color: white;
 }
-
+.venue-bg{
+  object-fit: cover;
+  background-size: cover !important;
+  height: 70vh;
+  background-image: url("assets/upcoomig.png");
+}
 .span-head1 {
   font-size: 14px;
   color: #ccc;

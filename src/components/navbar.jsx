@@ -63,12 +63,12 @@ const Navbar = () => {
     {/* Right Side Nav Links */}
     <ul className="navbar-nav d-none d-lg-flex">
       <li className="nav-item">
-        <Link className="nav-link" to={"/"}>
-          Venues
+        <Link className="nav-link" to={"/Events"}>
+         Events
            </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to={"/"}>
+        <Link className="nav-link" to={"/Events"}>
           Menus
            </Link>
       </li>
