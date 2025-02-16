@@ -47,7 +47,7 @@ body{
 .navbar {
   width: 100%;
   backdrop-filter: blur(55px) !important;
-  background-color:rgba(255, 255, 255, 0.148);
+  background-color:rgba(0, 0, 0, 0.51);
   padding: 10px 0px !important;
   z-index: 2;
   position: absolute !important;
